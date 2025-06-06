@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14aefa90-cee2-438d-8fcd-96bbe793f220" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/appman/AppEngine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/pathman.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/images/tray/favicon-128.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/resourceMan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/ui/tray/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/ui/tray/tray.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2y2PB1N6wnO3BesC149VQ1tHHPA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.main.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JSON",
+    "ts.external.directory.path": "F:\\quicks\\coreapps\\platform\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\quicks\coreapps\platform\src\modules\coreapps\platform\resources\images\tray" />
+      <recent name="F:\quicks\coreapps\platform\src\modules\coreapps\platform\resources\images\TRAY" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26574.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\12078\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="14aefa90-cee2-438d-8fcd-96bbe793f220" name="更改" comment="" />
+      <created>1749029556371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749029556371</updated>
+      <workItem from="1749029557688" duration="2983000" />
+      <workItem from="1749047640325" duration="514000" />
+      <workItem from="1749052255625" duration="853000" />
+      <workItem from="1749085360763" duration="691000" />
+      <workItem from="1749090929267" duration="4032000" />
+      <workItem from="1749116855828" duration="1689000" />
+      <workItem from="1749131061622" duration="7796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+{
+  "name": "coraplatform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "electron ."
+  },
+  "dependencies": {
+    "@electron/asar": "^4.0.0",
+    "electron": "^36.3.2",
+    "log4js": "^6.9.1",
+    "semver": "^7.7.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": false
+}
