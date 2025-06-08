@@ -1,5 +1,5 @@
 import {app, BrowserWindow} from 'electron';
-import AppEngine from "./appman/AppEngine";
+import AppEngine from "./appMan/AppEngine";
 
 function createDebugWindow(){
     const debugWindow = new BrowserWindow({
@@ -21,7 +21,8 @@ class Cora{
     };
     init(){
         this.appEngine = new AppEngine(this.rootDir);
-    }
+    };
+
 }
 
 export { Cora, createDebugWindow }

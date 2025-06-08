@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14aefa90-cee2-438d-8fcd-96bbe793f220" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/appman/AppEngine.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/core.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/pathman.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/debug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/images/tray/favicon-128.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/resources/resourceMan.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/ui/tray/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/ui/tray/tray.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="14aefa90-cee2-438d-8fcd-96bbe793f220" name="更改" comment="Init">
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/coreConfigs/logConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/coreConfigs/versionConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/packageMan/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/packageMan/packageMan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/coreapps/platform/systemProcess/packageManager.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yizigezi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PieTech-WS/platform.git&quot;,
+    &quot;accountId&quot;: &quot;ba8dec32-e219-4329-83af-5ad36be54e0a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -48,25 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.main.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JSON",
-    "ts.external.directory.path": "F:\\quicks\\coreapps\\platform\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.main.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/AstroBox&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JSON&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\quicks\\coreapps\\platform\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\quicks\coreapps\platform\src\modules\coreapps\platform\coreConfigs" />
       <recent name="F:\quicks\coreapps\platform\src\modules\coreapps\platform\resources\images\tray" />
       <recent name="F:\quicks\coreapps\platform\src\modules\coreapps\platform\resources\images\TRAY" />
     </key>
@@ -96,10 +98,37 @@
       <workItem from="1749090929267" duration="4032000" />
       <workItem from="1749116855828" duration="1689000" />
       <workItem from="1749131061622" duration="7796000" />
+      <workItem from="1749183975910" duration="333000" />
+      <workItem from="1749218878706" duration="2475000" />
+      <workItem from="1749284909483" duration="2798000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1749184217389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749184217389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
